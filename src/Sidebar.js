@@ -3,7 +3,7 @@ export default function Sidebar() {
     <ul className = "side-ul">
         <div>
             <li className="side-li">
-                <a>Genre</a>
+                <a className="Genre">Genre</a>
             </li>
             <li>
                 <a >Action</a>
@@ -26,7 +26,7 @@ export default function Sidebar() {
             </div>
             <div>
             <li className="side-li2">
-                <a>Language</a>
+                <a className="Language">Language</a>
             </li>
             <li>
                 <a >English</a>

@@ -12,18 +12,18 @@ sideNav{
     overflow-x: hidden;     
     .side-ul{
             list-style: none;
-            cursor: pointer;
+            
             color: $sideTextColor;
           }
           
           .side-li{
-                  padding-top: 60px;
+                  padding-top: 80px;
                   color: $sideTextColor;
                   
 
               }
                 .side-li2{
-         padding-top: 60px;
+         padding-top: 80px;
          color: inherit;
          text-decoration: none;
         
@@ -32,6 +32,11 @@ sideNav{
          a{
             color: $sideTextColor;    
             font-weight: bold;  
+            cursor: pointer;
+            &:hover{
+                color: $textColor;
+                text-decoration: none;
+            }
            }
            .Genre{
             color:$textColor;
