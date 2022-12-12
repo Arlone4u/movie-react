@@ -1,0 +1,70 @@
+$backGroundColor: #0f1115;
+$backGroundColorAccent: #19181f;
+$textColor: white;
+
+
+@mixin columnText {
+    font-weight: bold;
+    padding-left: 10px;
+    color: $textColor;
+}
+movie{
+    border-top-left-radius: 20px;
+    z-index: 1;   
+    position:absolute;   
+    height: 100%;
+    width: 89%;     
+    left: 210px;
+    background:$backGroundColorAccent; 
+    overflow-x: hidden;     
+    justify-content:space-between;
+    .movie-list{
+        display: flex;
+         overflow-y: hidden;
+        overflow-x: scroll;
+        padding: 20px;
+        
+    }
+    .movie-list2{
+        display: flex;
+         overflow-y: hidden;
+        overflow-x: scroll;
+        padding: 20px;
+    }
+    .row_poster{
+            object-fit: contain;
+            width: 100;
+            max-height: 250px;
+            transition: transform 450ms;
+            margin-right: 10px;
+          }
+    .row_poster2{
+            object-fit: contain;
+            width: 100;
+            max-height: 250px;
+            transition: transform 450ms;
+            right: 2px;
+          }
+         
+    .row_poster:hover{
+            transform: scale(1.08);
+        }
+        .movie-title{
+            font-weight: bold;
+                color: $textColor;
+              }
+              .title2{
+                    padding-right: 10px;
+                    padding-top: 5px;
+                  }
+                  .col1{
+                    @include columnText();
+                  }
+                  .col2{
+                    @include columnText();
+                      }
+                      .movie-price{
+                            color: greenyellow;
+                          }
+  }
+

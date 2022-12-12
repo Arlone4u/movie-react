@@ -1,0 +1,52 @@
+$backGroundColor: #0f1115;
+$textColor: white;
+$sideTextColor:#6b6868;
+
+sideNav{
+    position: absolute;     
+    height: 100%;
+    width: 230px;     
+    z-index: 1;      
+    top: 0.1;      
+    background-color: $backGroundColor; 
+    overflow-x: hidden;     
+    .side-ul{
+            list-style: none;
+            cursor: pointer;
+            color: $sideTextColor;
+          }
+          
+          .side-li{
+                  padding-top: 60px;
+                  color: $sideTextColor;
+                  
+
+              }
+                .side-li2{
+         padding-top: 60px;
+         color: inherit;
+         text-decoration: none;
+        
+         }
+              
+         a{
+            color: $sideTextColor;    
+            font-weight: bold;  
+           }
+           .Genre{
+            color:$textColor;
+        }   
+        .Language{
+            color:$textColor;
+        }
+        
+        li{
+            padding-bottom: 10px;
+         
+        }
+        
+
+  }
+
+
+  
