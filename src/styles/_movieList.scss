@@ -5,7 +5,7 @@ $textColor: white;
 
 @mixin columnText {
     font-weight: bold;
-    padding-left: 10px;
+    padding-left: 25px;
     color: $textColor;
 }
 movie{
@@ -45,9 +45,10 @@ movie{
             transition: transform 450ms;
             right: 2px;
           }
-         
+   
     .row_poster:hover{
-            transform: scale(1.08);
+            transform: scale(1.15);
+            box-shadow: 10px 10px 10px black;
         }
         .movie-title{
             font-weight: bold;
