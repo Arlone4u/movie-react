@@ -29,7 +29,7 @@ const [movies,setMovies] = useState([
   "imdbID": "tt1825683",
   "Type": "movie",
   "Poster": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg",
-  "Price": "200"
+  "Price": "200 PHP"
 },
 {
   "Title": "Black Panther: Wakanda Forever",
@@ -37,7 +37,7 @@ const [movies,setMovies] = useState([
   "imdbID": "tt9114286",
   "Type": "movie",
   "Poster": "https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
-  "Price": "180"
+  "Price": "180 PHP"
 },
 {
   "Title": "Black Panther",
@@ -45,7 +45,7 @@ const [movies,setMovies] = useState([
   "imdbID": "tt1441105",
   "Type": "series",
   "Poster": "https://m.media-amazon.com/images/M/MV5BMDM4YzEwNzItMTg2ZS00MWU4LTlkNDgtODMyMmU0OGQyZTBkXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_SX300.jpg",
-  "Price": "300"
+  "Price": "300 PHP"
 },
 {
   "Title": "The Black Panther",
@@ -53,7 +53,7 @@ const [movies,setMovies] = useState([
   "imdbID": "tt0075764",
   "Type": "movie",
   "Poster": "https://m.media-amazon.com/images/M/MV5BZDIzNWI5YzktZDYzNC00ZjU1LTllNTMtMjAwODQ2ZTUyN2JlXkEyXkFqcGdeQXVyMTk5MjAyMjM@._V1_SX300.jpg",
-  "Price": "250"
+  "Price": "250 PHP"
 },
 
 {
@@ -62,7 +62,7 @@ const [movies,setMovies] = useState([
   "imdbID": "tt0107098",
   "Type": "movie",
   "Poster": "https://m.media-amazon.com/images/M/MV5BMTU5NTQyMjAyMF5BMl5BanBnXkFtZTcwOTk0MzAyMQ@@._V1_SX300.jpg",
-  "Price": "270"
+  "Price": "270 PHP"
 },
 {
   "Title": "Black Adam",
@@ -70,14 +70,14 @@ const [movies,setMovies] = useState([
   "imdbID": "tt6443346",
   "Type": "movie",
   "Poster": "https://m.media-amazon.com/images/M/MV5BYzZkOGUwMzMtMTgyNS00YjFlLTg5NzYtZTE3Y2E5YTA5NWIyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg",
-  "Price": "220"
+  "Price": "220 PHP"
 }, {
   "Title": "The Avengers",
   "Year": "2012",
   "imdbID": "tt0848228",
   "Type": "movie",
   "Poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-  "Price": "160"
+  "Price": "160 PHP"
 },
 {
   "Title": "Avengers: Endgame",
@@ -85,7 +85,7 @@ const [movies,setMovies] = useState([
   "imdbID": "tt4154796",
   "Type": "movie",
   "Poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
-  "Price": "350"
+  "Price": "350 PHP"
 },
 
 {
@@ -94,7 +94,7 @@ const [movies,setMovies] = useState([
   "imdbID": "tt0118661",
   "Type": "movie",
   "Poster": "https://m.media-amazon.com/images/M/MV5BYWE1NTdjOWQtYTQ2Ny00Nzc5LWExYzMtNmRlOThmOTE2N2I4XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg",
-  "Price": "500"
+  "Price": "500 PHP"
 },
 {
   "Title": "The Avengers",
@@ -102,7 +102,7 @@ const [movies,setMovies] = useState([
   "imdbID": "tt0054518",
   "Type": "series",
   "Poster": "https://m.media-amazon.com/images/M/MV5BZWQwZTdjMDUtNTY1YS00MDI0LWFkNjYtZDA4MDdmZjdlMDRlXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg",
-  "Price": "315"
+  "Price": "315 PHP"
 },
 {
   "Title": "Avengers Assemble",
@@ -110,7 +110,7 @@ const [movies,setMovies] = useState([
   "imdbID": "tt2455546",
   "Type": "series",
   "Poster": "https://m.media-amazon.com/images/M/MV5BMTY0NTUyMDQwOV5BMl5BanBnXkFtZTgwNjAwMTA0MDE@._V1_SX300.jpg",
-  "Price": "270"
+  "Price": "270 PHP"
 }
 ]);
 
