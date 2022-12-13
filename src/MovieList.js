@@ -4,7 +4,7 @@ const MovieList = (props) => {
                <h1 className='col1'>Weekly Top 10</h1>
         </div>
 
-         <div data-testid = "top10" className = "movie-list">
+         <div data-testid = "trending" className = "movie-list">
             {props.movies?.map((movie,index) => <div className="test"><img src={movie.Poster} className = 'row_poster'alt = 'movie'>
                 </img>
                 <div className="info">
