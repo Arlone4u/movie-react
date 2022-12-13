@@ -2,13 +2,31 @@ $backGroundColor: #0f1115;
 $backGroundColorAccent: #19181f;
 $textColor: white;
 
+@mixin scrollbars() {
+  // For Google Chrome
+  &::-webkit-scrollbar {
+    height: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #32303D;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $backGroundColor;
+    border-radius: 10px;
+  }
+}
 
 @mixin columnText {
     font-weight: bold;
-    padding-left: 25px;
+    padding-left: 10px;
     color: $textColor;
 }
 movie{
+    padding-left:5px;
+    padding-right: 5px;
     border-top-left-radius: 20px;
     z-index: 1;   
     position:absolute;   
@@ -18,18 +36,39 @@ movie{
     background:$backGroundColorAccent; 
     overflow-x: hidden;     
     justify-content:space-between;
+
     .movie-list{
         display: flex;
-         overflow-y: hidden;
+        overflow-y: hidden;
         overflow-x: scroll;
         padding: 20px;
-        
+        position: relative;
+        text-align: center;
+        @include scrollbars();
+
+        .info{
+          position: absolute;
+          bottom: 30px;
+          text-align: left;
+          padding-left: 10px;
+          padding-right: 10px;
+          transition: transform 450ms;
+          width:168.91px;
+
+        }
     }
     .movie-list2{
         display: flex;
-         overflow-y: hidden;
+        overflow-y: hidden;
         overflow-x: scroll;
         padding: 20px;
+    }
+    .test{
+      object-fit: contain;
+      width: 100;
+      max-height: 250px;
+      transition: transform 450ms;
+      margin-right: 10px;
     }
     .row_poster{
             object-fit: contain;
@@ -45,14 +84,35 @@ movie{
             transition: transform 450ms;
             right: 2px;
           }
-   
-    .row_poster:hover{
-            transform: scale(1.15);
-            box-shadow: 10px 10px 10px black;
+         
+    .test:hover .info{
+            transform: scale(1.08);
         }
+    .test:hover {
+          transform: scale(1.08);
+      }
+      .title{
+        height: 20px;
+        overflow: hidden;
+        position: relative;
+      }
+      .title span {
+        position: absolute;
+        white-space: nowrap;
+        transform: translateX(0);
+        transition: 1.5s;
+      }
+      .test:hover .title span {
+        transform: translateX(calc(148px - 100%));
+      }
+      
         .movie-title{
             font-weight: bold;
                 color: $textColor;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                display:inline-block;
               }
               .title2{
                     padding-right: 10px;
@@ -65,7 +125,8 @@ movie{
                     @include columnText();
                       }
                       .movie-price{
-                            color: greenyellow;
+                            font-weight: bold;
+                            color: rgb(98, 0, 255);
                           }
   }
 
