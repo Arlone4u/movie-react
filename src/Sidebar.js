@@ -2,8 +2,10 @@ export default function Sidebar() {
     return <sideNav className = "side-nav">
     <ul className = "side-ul">
         <div>
+
             <li data-testid = "genrefilters" className="side-li">
                 <a href='/#' >Genre</a>
+
             </li>
             <li>
                 <a href='/#' data-testid = "action">Action</a>
@@ -25,8 +27,10 @@ export default function Sidebar() {
             </li>
             </div>
             <div>
+            
             <li data-testid = "languagefilters"className="side-li2">
                 <a href='/#'>Language</a>
+
             </li>
             <li>
                 <a href='/#' data-testid = "english">English</a>
