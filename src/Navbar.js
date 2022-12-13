@@ -1,7 +1,7 @@
 export default function Navbar() {
     return <nav className = "nav">
         <div> 
-        <img src ={require("./images/popcorn.png")}  height="80"/>
+        <img src ={require("./images/popcorn.png")}  alt="Logo" height="80"/>
         </div>
         <input 
 				aria-label="sno" 
@@ -12,10 +12,10 @@ export default function Navbar() {
 			/>
         <ul className="nav-ul">
             <li className="nav-li">
-                <a>Movies</a>
+                <a href='/#'>Movies</a>
                 </li>
                 <li>
-                <a>Watchlist</a>
+                <a href='/#'>Watchlist</a>
                 </li>
                 <li>
                 <a href="/cart">Cart</a>
